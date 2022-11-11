@@ -1,0 +1,21 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "jest-html-reporter": "^3.7.0"
+  },
+  "jest": { 
+    "reporters": 
+    [ "default",
+    [ "./node_modules/jest-html-reporter", { "pageTitle": "Test Report", "includeFailureMsg": true}]
+  ]
+}
+}
