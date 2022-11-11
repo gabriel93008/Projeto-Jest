@@ -1,5 +1,5 @@
 const sum = require('./exemplo');
 
-test('O valor de 50 * 60 é:', () => {
-    expect(sum(50 * 60)).toBe(3000);
+test('O valor de 30 * 60 é:', () => {
+    expect(sum(30 * 60)).toBe(1800);
 });
