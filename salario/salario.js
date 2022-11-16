@@ -1,5 +1,8 @@
-const sum = require('./salario.test.js');
 
-test('Seu novo salario é 900', () => {
-  expect(sum(1, 2)).toBe(900);
-});
+function sum (salario, novoSalario) {
+  if ( novoSalario > salario)
+  return 900;
+
+  return salario -  novoSalario
+}
+module.exports = sum;
