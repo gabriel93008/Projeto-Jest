@@ -11,7 +11,7 @@
   
  
 ## Usei jest-html-reporter para ter um melhor monitoramento do meu codigo
-"jest": { 
+>"jest": { 
     "reporters": 
     [ "default",
     [ "./node_modules/jest-html-reporter", { "pageTitle": "Test Report", "includeFailureMsg": true}]
